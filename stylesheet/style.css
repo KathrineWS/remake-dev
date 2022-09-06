@@ -3,3 +3,19 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
+
+.buttonheader {
+    background-color: #DD6762;
+}
+
+.wraptimer {
+    background-color: #DD6762;
+}
+
+.buttontimer {
+    background-color: #DD6762;
+}
+
+.buttontimer.active {
+    background-color: #C84D49;
+}
