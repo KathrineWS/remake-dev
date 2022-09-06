@@ -246,10 +246,15 @@ main h1 {
     color: #541C1F;
 }
 
+
 main h2 {
     color: #541C1F;
     padding-right: 20rem;
     padding-top: 2rem;
+    /* border-bottom: solid 0.2em #F89E9B; */
+}
+
+main h2::first-letter {
     border-bottom: solid 0.2em #F89E9B;
 }
 
@@ -278,3 +283,35 @@ main p {
 }
 
 /* footer  */
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: lightgray solid 0.1em;
+
+    color: #785E60;
+}
+
+#wrapfooter {
+    padding-top: 2rem;
+    display: grid;
+    justify-items: center;
+
+}
+
+footer ul {
+
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+}
+
+footer span {
+    color: #DD6762;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        max-width: 100%;
+    }
+}
